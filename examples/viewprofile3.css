@@ -1,0 +1,48 @@
+.card-user .card-image {
+    height: 110px;
+  }
+  .card .card-image {
+    width: 100%;
+    overflow: hidden;
+    border-radius: 4px 4px 0 0;
+    position: relative;
+    transform-style: preserve-3d;
+  }
+  .card-user .card-body {
+    min-height: 200px;
+  }
+  
+  .card-user .profilecard {
+    text-align: center;
+    text-transform: none;
+    margin-top: -70px;
+  }
+  .card .profilecard{
+    font-size: 12px;
+    font-weight: 600;
+  }
+  .card-user .avatar.border-gray {
+    border-color: #EEEEEE;
+  }
+  .card .description {
+    font-size: 14px;
+    color: #333;
+  }
+  .card-details .card-body  {
+    min-height: 350px;
+  }
+  .card-details .card-experience{
+    width: 600px;
+    float: inline-end;
+  }
+  
+  .card .card-body {
+    padding: 15px 25px 10px 25px;
+}
+  @media (max-width:768px) {
+    .card-details{
+      width: 100%;
+      float: none;
+    }
+
+  }
